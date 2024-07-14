@@ -6,18 +6,18 @@
 #     print(i)
 #     print("hello world") 
 
-#task 2
+# task 2
 
 # for i in range(0,1000,100):
 #     print(i)
 
 
-#task 3
+# task 3
 
 # for i in range(100, 0, -1):
 #     print(i)
 
-#task 4
+# task 4
 
 # i = 0
 # while i < 10: 
@@ -26,7 +26,7 @@
 #      print("hello world") 
 
 
-#task 5
+# task 5
 
 # number = 5
 # for i in range(10):
@@ -34,7 +34,7 @@
 
 # print(number)
 
-#task 6
+# task 6
 
 # num = 0
 
@@ -42,11 +42,11 @@
 #     print(num) 
 #     num += 100 
 
+ 
+# task 7
 
-#task 7
+# num = 100
 
-num = 100
-
-while num >= 0:  
-    print(num)
-    num -= 1
+# while num >= 0:  
+#     print(num)
+#     num -= 1
