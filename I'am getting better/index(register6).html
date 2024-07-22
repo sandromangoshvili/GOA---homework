@@ -3,40 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>რეგისტრაცია</title>
+    <title>register</title>
 </head>
 <body>
     <center>
     <form>
         
-        <input type="text" name="text" id="text" required placeholder="სახელი"><br><br>
+        <input type="text" name="text" id="text" required placeholder="Enter your name" minlength="6" maxlength="16" style="width: 200px;height: 25px;"><br><br>
 
 
 
         
-        <input type="email" name="Email" id="email" required placeholder="ემაილი"><br><br>
+        <input type="email" name="Email" id="email" required placeholder="Enter your email" style="width: 200px;height: 25px;"><br><br>
 
-    
+
+
+        <input type="password" id="password" placeholder="Enter your password" minlength="8" maxlength="16" required style="width: 200px;height: 25px;"><br><br>
         
-        <input type="number" id="age" placeholder="ასაკი"><br><br>
-
-
         
-        <input type="text" name="text" id="text" required placeholder="შთაბეჭდილება"><br><br>
+        
+        <input type="number" id="age" placeholder="Enter your age"  style="width: 200px;height: 25px;">
 
 
-        <label for="radio">ბიჭი</label>
+
+
+
+        <p><i>already have an account? <a href="index(login7).html">login</a></i></p>
+
+
+
+        <label for="radio">Male</label>
         <input type="radio" id="radio">
 
 
-        <label for="radio2">გოგო</label>
+        <label for="radio2">Female</label>
         <input type="radio" id="radio2"><br><br>
 
 
 
         
 
-        <input type="submit">
+        <input type="submit" style="width: 150px;height: 25px;">
     </form>
     </center>
 </body>
