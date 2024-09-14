@@ -1,0 +1,54 @@
+input[type = "text"]{
+    border: 7px solid red;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px; height: 200px;
+    text-align: center;
+}
+input[type = "email"]{
+    border: 7px solid red;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px; height: 200px;
+    text-align: center;
+}
+
+input[type = "password"]{
+    border: 7px solid red;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px; height: 200px;
+    text-align: center;
+}
+
+input[type = "number"]{
+    border: 7px solid red;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px; height: 200px;
+    text-align: center;
+}
+
+input[type = "submit"]{
+    border: 7px solid red;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px; height: 200px;
+    text-align: center;
+    
+}
+
+input[type = "submit"]:hover{
+    background-color: red;
+    color: black;
+    transition: 2s;
+    border-radius: 50px;
+    
+}
+
+
+
+body{
+    background-color:  black;
+    
+}
