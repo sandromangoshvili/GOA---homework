@@ -1,0 +1,53 @@
+/* პირველი დავალება */
+/* body{
+    display: flex;
+    justify-content:end ;
+    align-items: end;
+    height: 100vh;
+
+    
+} 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+/* პირველი დავალება */
+
+
+
+
+
+
+
+/* მეორე დავალბეა */
+
+/* body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+} 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+} */
+/* მეორე დავალება */
+
+
+
+
+/* მესამე დავალება */
+
+body{
+    display: flex;
+    align-items:flex-end;
+    height: 100vh;
+} 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+/* მესამე დავალება */
