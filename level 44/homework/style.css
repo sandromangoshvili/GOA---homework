@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: width 5s, border-radius 2s;
+  }
+  
+  .box:hover {
+    width: 300px; 
+    border-radius: 50%; 
+  }
+
+
+
+  .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    border-radius: 50%; 
+    transition: height 1s, border-radius 2s; 
+  }
+  
+  .box1:hover {
+    height: 200px; 
+    border-radius: 0%; 
+  }
+  
+
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 1s, background-color 2s; 
+  }
+  
+  .box2:hover {
+    transform: rotate(90deg) scale(2); 
+    background-color: #e74c3c; 
+  }
+  

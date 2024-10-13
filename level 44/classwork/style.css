@@ -1,0 +1,41 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 0.5s;
+}
+
+.box:hover {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 0;
+    transition: background-color 2s, width 1s, border-radius 5s;
+}
+
+.box1:hover {
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    transition: transform 5s, background-color 1s;
+}
+
+.box2:hover {
+    transform: translateX(100px);
+    background-color: orange;
+}
