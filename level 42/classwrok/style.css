@@ -57,6 +57,6 @@ body{
   }
 
   .box:hover {
-    transform: translateX(50px) rotate(90deg) scale(0.5); /* მოძრაობს მარჯვნივ, ბრუნავს და მცირდება ზომაში */
+    transform: translate(50px) rotate(90deg) scale(0.5); /* მოძრაობს მარჯვნივ, ბრუნავს და მცირდება ზომაში */
     border-radius: 50%; /* ხდება წრე */
   }
