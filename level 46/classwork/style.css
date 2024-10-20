@@ -1,0 +1,73 @@
+.cube {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation: Cube 2s infinite;
+  }
+  
+  @keyframes Cube {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(300px);
+    }
+  }
+  
+/* -------------------------------------------------------- */
+
+  .cube {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: cube 2s ease-in-out 3;
+  }
+  
+  @keyframes cube {
+    from {
+      background-color: red;
+      transform: scale(1) rotate(0deg);
+      border-radius: 0;
+    }
+    to {
+      background-color: blue;
+      transform: scale(2) rotate(90deg);
+      border-radius: 50%;
+    }
+  }
+  
+
+  /* --------------------------------------------------------------- */
+
+  .cube {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: cube 4s infinite;
+  }
+  
+  @keyframes cube {
+    0% {
+      background-color: red;
+      transform: scale(1);
+    }
+    25% {
+      background-color: green;
+      transform: scale(1.5);
+    }
+    50% {
+      background-color: blue;
+      transform: scale(0.75);
+    }
+    75% {
+      background-color: yellow;
+      transform: scale(1.25);
+    }
+    100% {
+      background-color: purple;
+      transform: scale(1);
+    }
+  }
+  
+
+/* ------------------------------------------------- */
